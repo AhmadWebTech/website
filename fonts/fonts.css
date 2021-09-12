@@ -1,0 +1,20 @@
+@import url(./fontawesome-pro/css/all.min.css);
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./DroidKufi-Regular/DroidKufi-Regular.eot);
+  src: url(./DroidKufi-Regular/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./DroidKufi-Regular/DroidKufi-Regular.woff2) format('woff2'),
+       url(./DroidKufi-Regular/DroidKufi-Regular.woff) format('woff'),
+       url(./DroidKufi-Regular/DroidKufi-Regular.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+! Version: 1.0
+! Title: My Personal Filter List
+! Last modified: 
+! Expires: 7 days (update frequency)
+! Homepage: 
+!----------------------------------------
+||txufdrwqbadhmtf.com^
+||ucvknunsuaq.com^
+!----------------------------------------
+*##script:inject(bab-defuser.js)

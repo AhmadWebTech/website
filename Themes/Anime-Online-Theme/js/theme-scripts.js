@@ -63,30 +63,28 @@ $(document).ready(function(){
   const theme = document.querySelector("#theme-css");
   const theme_dir = "https://cdn.jsdelivr.net/gh/ahmadalkhatib1/website/Themes/Anime-Online-Theme/";
   function applySavedTheme() {
-    const cookies = document.cookie.split(';');
-    const themeCookie = cookies.find(c => c.includes('thememode='));
+    const cookies = document.cookie.split(';').map(c => c.trim());
+    const themeCookie = cookies.find(c => c.startsWith('thememode='));
     const themeMode = themeCookie ? themeCookie.split('=')[1] : 'dark';
-
     if (themeMode === 'light') {
-      theme.href = theme_dir + "/css/light-styles.css";
+      theme.href = `${theme_dir}/css/light-styles.css`;
       $("#theme-mode-icon").attr("class", "far fa-moon");
-      $("#lucodeia-error-img").attr("src", theme_dir + "/images/404.png");
-      $("#lucodeia-no-contents-img").attr("src", theme_dir + "/images/no-contents.png");
+      $("#lucodeia-error-img").attr("src", `${theme_dir}/images/404.png`);
+      $("#lucodeia-no-contents-img").attr("src", `${theme_dir}/images/no-contents.png`);
     } else {
-      theme.href = theme_dir + "/css/dark-styles.css";
+      theme.href = `${theme_dir}/css/dark-styles.css`;
       $("#theme-mode-icon").attr("class", "fas fa-sun");
-      $("#lucodeia-error-img").attr("src", theme_dir + "/images/404-dark.png");
-      $("#lucodeia-no-contents-img").attr("src", theme_dir + "/images/no-contents-dark.png");
+      $("#lucodeia-error-img").attr("src", `${theme_dir}/images/404-dark.png`);
+      $("#lucodeia-no-contents-img").attr("src", `${theme_dir}/images/no-contents-dark.png`);
     }
   }
   applySavedTheme();
   themeModeBtn.addEventListener("click", function() {
     const currentTheme = theme.href.includes('dark-styles.css') ? 'dark' : 'light';
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.cookie = `thememode=${newTheme}`;
+    document.cookie = `thememode=${newTheme};`;
     applySavedTheme();
   });
-
 });
 
 function getFilteredEpisode() {

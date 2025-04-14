@@ -1,9 +1,23 @@
 @font-face {
-    font-family: 'NeoSansArabic';
-    src: url(./NeoSansArabic.woff2) format('woff2');
+	font-family: 'NeoSansArabic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./NeoSansArabic.eot');
+	src: url('./NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+		url('./NeoSansArabic.woff2') format('woff2'),
+		url('./NeoSansArabic.woff') format('woff'),
+		url('./NeoSansArabic.ttf') format('truetype'),
+		url('./NeoSansArabic.svg#NeoSansArabic') format('svg');
 }
 
 @font-face {
-    font-family: 'NeoSansArabic-Bold';
-    src: url(./NeoSansArabic-Bold.woff2) format('woff2');
+	font-family: 'NeoSansArabic-Bold';
+	font-style: normal;
+	font-weight: bold;
+	src: url('./NeoSansArabic-Bold.eot');
+	src: url('./NeoSansArabic-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./NeoSansArabic-Bold.woff2') format('woff2'),
+		url('./NeoSansArabic-Bold.woff') format('woff'),
+		url('./NeoSansArabic-Bold.ttf') format('truetype'),
+		url('./NeoSansArabic-Bold.svg#NeoSansArabic-Bold') format('svg');
 }

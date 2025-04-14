@@ -1,0 +1,316 @@
+body{
+	background-color: #f4f4f5;
+	color: #1c1e20;
+}
+
+.content{
+    background-color: #fff;
+}
+
+/* REST */
+.triangle-down-white{
+    border-top: 45px solid #fff;
+}
+.triangle-down-gray{
+    border-top: 45px solid #f4f4f5;
+}
+.triangle-down-black{
+    border-top: 45px solid #202225;
+}
+.triangle-down-blue{
+    border-top: 45px solid #09cce1;
+}
+/* END REST */
+
+/* SECTIONS */
+.second-section{
+    background-color: #1c1e20;
+}
+/* END SECTIONS */
+
+/* WIDGETS */
+.main-didget-head h3{
+    background-color: #1c1e20;
+}
+.tags-toggle{
+    background-color: #1c1e20;
+}
+.widget{
+    background-color: #fff;
+}
+.widget-head {
+    border-bottom: 2px solid #ececec;
+}
+.widget-body ul li {
+    border-bottom: 1px solid #e7ebec;
+}
+.widget-body ul li a:hover {
+    color: #232423;
+}
+.main-widget-body .owl-prev, .main-widget-body .owl-next{
+    background-color: #1c1e20;
+    border: 1px solid #1c1e20;
+}
+.main-didget-head .see-all{
+    color: #1c1e20;
+    border: 1px solid #1c1e20;
+}
+#wp-calendar caption { color: #333; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #fff;}
+#wp-calendar tbody td:hover { background: #fff; }
+/* END WIDGETS */
+
+/* HEADER */
+.header{
+    background-color: #04d1e6;
+}
+.header-continer-head h3{
+    background-color: #fff;
+    -webkit-box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+    -moz-box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+    box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+}
+.pin-anime-container .owl-prev, .pin-anime-container .owl-next{
+    background-color: #fff;
+    -webkit-box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+    -moz-box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+    box-shadow: 2px 8px 0px -4px rgba(4,191,211,1);
+}
+/* END HEADER */
+
+/* FOOTER */
+.footer{
+    background-color: #1e1e1e;
+    color: #7f7f7f;
+}
+/* END FOOTER */
+
+/* ANIME LIST */
+.anime-card-container{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+}
+/* END ANIME LIST */
+
+/* ANIME CARDS */
+.anime-card-title{
+    color: #1e1e1e;
+    border-bottom: 1px solid #e6e6e6;
+}
+.anime-card-title a{
+    color: #1e1e1e;
+}
+.anime-card-status{
+    background-color: #232423;
+}
+/* END ANIME CARDS */
+
+/* EPISODES CARDS */
+.episodes-card-container{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+}
+.episodes-card-type{
+    background-color: #232423;
+}
+.ep-card-anime-title {
+    color: #1e1e1e;
+}
+.ep-card-anime-title a {
+    color: #1c1e20;
+}
+/* END EPISODES CARDS */
+
+/* POSTS CARDS */
+.post-card-container{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.18);
+}
+.post-card-details{
+    background-color: #fff;
+}
+.post-card-statistics{
+    background-color: #1c1e20;
+}
+.post-card-title a{
+    color: #1c1e20;
+}
+/* END POSTS CARDS */
+
+/* ANIME PAGE */
+.search-for-episode .form-control {
+    color: #1c1e20;
+    background-color: #f4f4f5;
+    border: 1px solid #1c1e20;
+}
+.search-for-episode .form-control::placeholder{
+    color: #1c1e20;
+}
+.search-for-episode .form-control:focus {
+    border-color: #696969;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(86, 86, 86, 0.6);
+}
+.search-for-episode .form-control:focus::placeholder{
+    color: #8d8d8d;
+}
+/* END ANIME PAGE */
+
+/* POST INFO CONTENT */
+.user-post-info-content{
+    background-color: #151515;
+}
+/* END POST INFO CONTENT */
+
+/* EPISODE PAGE */
+.all-episodes{
+    background-color: #2a2a2a;
+}
+.all-episodes-head{
+    background-color: #151515;
+}
+.search-in-episodes-list{
+    background-color: #151515;
+}
+.search-in-episodes-list .form-control {
+    color: #555;
+    background-color: #1b1b1b;
+    border: 1px solid #2f2f2f;
+}
+.search-in-episodes-list .form-control:focus {
+    border-color: #696969;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(86, 86, 86, 0.6);
+}
+ul.all-episodes-list li{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+ul.all-episodes-list li a{
+    color: #9b9e9b;
+}
+ul.quality-list li:first-child{
+    background-color: #1c1e20;
+}
+.episode-watch-conteiner .nav-tabs > li > a {
+    background-color: #232423;
+}
+.episode-watch-conteiner .nav-tabs > li > a:hover {
+    background-color: #151515;
+}
+.watch-fansubs-option .nav-tabs > li > a {
+    border: 1px solid #4b555f;
+}
+.watch-fansubs-option .nav-tabs > li.active > a, .watch-fansubs-option .nav-tabs > li.active > a:hover, .watch-fansubs-option .nav-tabs > li.active > a:focus {
+    background-color: #484848 !important;
+}
+.no-links-found{
+    color: #1e1e1e;
+}
+/* END EPISODE PAGE */
+
+/* COMMENTS */
+.comment-form{
+	background-color: #1e1e1e;
+}
+.comment-form .form-control {
+    background-color: #272727;
+}
+.comment-form .form-control::-moz-placeholder{color: #606060;}
+.comment-form .form-control::-webkit-placeholder{color: #606060;}
+.comment-form .form-control:-ms-placeholder{color: #606060;}
+.commentlist .bypostauthor {
+	background: url("../images/author_label.png") no-repeat scroll right bottom #f4f4f5 !important;
+}
+.single-comments .commentlist .bypostauthor {
+    background: url("../images/author_label.png") no-repeat scroll right bottom #fff !important;
+}
+.commentlist li {
+	background-color: #ffffff;
+}
+.commentlist li ul.children li.bypostauthor {
+	background-color: #fcfbfa;	
+}
+.commentlist .reply a {
+	background-color: #2d2e2d;
+}
+.commentlist .vcard img.avatar {
+    border: 1px solid #E0E0E0;
+}
+/* END COMMENTS */
+
+.episode-anime-section{
+    background-color: #1c1e20;
+    color: #fff;
+}
+
+/* SEARCH BOX */
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.search-box .input-group{
+    border: 1px solid #ececec;
+}
+/* END SEARCH BOX */
+
+/* SEARCH */
+.search-content{
+    background-color: #1c1e20;
+}
+#hideSearch{
+    background-color: #414141;
+}
+/* END SEARCH */
+
+/* CATEGORY PAGE CONTENT */
+.cat-post-details h2 a{
+    color: #1c1e20;
+}
+ul.category-posts-list li{
+    border-bottom: 1px dotted #d9d9d9;
+}
+/* END CATEGORY PAGE CONTENT */
+
+/* PAGE/POST CONTENT */
+.post-tags {
+    background-color: #eaeaea;
+}
+.post-tags a {
+    color: #1e1e1e;
+}
+.post-tags a:hover {
+    color: #5f5f5f;
+}
+/* END PAGE/POST CONTENT */
+
+/* ERRORS */
+.page-404 .search-box{
+    background-color: #fff;
+}
+/* END ERRORS */
+
+/* BUTTONS */
+.btn-secondary{
+    background-color: #1c1e20;
+    border-color: #1c1e20;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+    background-color: #060707;
+    border-color: #060707;
+}
+/* END BUTTONS */
+
+/* FILTER SECTION */
+.anime-filter-options .btn-default {
+    background-color: #1c1e20;
+    border: 1px solid #454545;
+}
+.e-alphabetical-filter .pagination > li > a, .e-alphabetical-filter .pagination > li > span, .a-alphabetical-filter .pagination > li > a, .a-alphabetical-filter .pagination > li > span {
+    background-color: #1c1e20;
+    border: 1px solid #454545;
+}
+/* END FILTER SECTION */

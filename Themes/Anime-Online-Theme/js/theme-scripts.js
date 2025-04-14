@@ -79,7 +79,7 @@ $(document).ready(function(){
       $("#lucodeia-no-contents-img").attr("src", theme_dir + "/images/no-contents-dark.png");
     }
   }
-  document.addEventListener('DOMContentLoaded', applySavedTheme);
+  applySavedTheme();
   themeModeBtn.addEventListener("click", function() {
     const currentTheme = theme.href.includes('dark-styles.css') ? 'dark' : 'light';
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
